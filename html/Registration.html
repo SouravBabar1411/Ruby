@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        #a {
+            width: 100%;
+            padding: 5px;
+            border: 2px solid;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            font-size: 20px;
+            padding: 5px;
+            border: 2px solid;
+        }
+        
+        body {
+            padding-top: 30px;
+            background-color: #D4E6F1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <fieldset style="width:40%;border:3px solid;">
+            <table cellspacing=0 cellpadding=10>
+                <form>
+                    <caption>
+                        <h2>Registration
+                        </h2>
+                    </caption>
+                    <tr>
+                        <td><label for="a">Username:</label></td>
+                        <td><input type="text" name="t" id="a" placeholder="name" autofocus="autofocus" required></td>
+                    </tr>
+                    <tr>
+                        <td>FullName:</td>
+                        <td><input type="text" name="ts" id='a' placeholder="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="tt" id='a' placeholder="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td><input type="radio" name="gender" value="male" required>male
+                            <input type="radio" name="gender" value="female">female</td>
+                        <tr>
+                            <td>Qulification:</td>
+                            <td><input type="checkbox" name="s" value="B.sc">B.sc
+                                <input type="checkbox" name="s" value="M.sc">M.sc
+                                <input type="checkbox" name="s" value="M.tech">M.tech
+                                <input type="checkbox" name="s" value="B.tech">B.tech</td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>DOB:</td>
+                        <td><input type="date" id='a' required></td>
+                    </tr>
+                    <tr>
+                        <td>Phoneno:</td>
+                        <td><input type="number" name="n" id='a' required></td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td><select name="Country">
+							   <option value="India">India</option>
+							   <option value="America">America</option>
+							   <option value="Japan">Japan</option>
+							   <option value="China">China</option></td>
+						  </tr>
+						  <tr>
+						       <td>State:</td>
+							   <td><input type="text" id='a' placeholder="state" required></td>
+						  </tr>
+						  <tr>
+						       <td>Postalcode:</td>
+							   <td><input type="number" id='a' required></td>
+						  </tr>
+						  <tr>
+                              <td>
+                                <button type="button" class="btn btn-success">Register</button>
+                              </td>
+                            
+						  </tr>
+				   </form>
+			</table>
+		</fieldset>
+	</center>
+ </body>
+</html>
